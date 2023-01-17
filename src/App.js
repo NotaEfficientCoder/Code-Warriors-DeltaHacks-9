@@ -12,13 +12,13 @@ const App = () => {
     return (
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<LoginModal />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/description" element={<Desc />} />
-          <Route path="/listings" element={<Listing />} />
-          <Route path="/missions" element={<Missions />} />
-          <Route path="/firstmission" element={<FirstMission />} />
-          <Route path="/end" element={<End />} />
+          <Route exact path="/Code-Warriors-DeltaHacks-9" element={<LoginModal />} />
+          <Route path="/Code-Warriors-DeltaHacks-9/home" element={<Home />} />
+          <Route path="/Code-Warriors-DeltaHacks-9/description" element={<Desc />} />
+          <Route path="/Code-Warriors-DeltaHacks-9/listings" element={<Listing />} />
+          <Route path="/Code-Warriors-DeltaHacks-9/missions" element={<Missions />} />
+          <Route path="/Code-Warriors-DeltaHacks-9/firstmission" element={<FirstMission />} />
+          <Route path="/Code-Warriors-DeltaHacks-9/end" element={<End />} />
         </Routes>
       </BrowserRouter>
     );
